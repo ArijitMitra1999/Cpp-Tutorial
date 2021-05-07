@@ -8,16 +8,20 @@
 	// Example:
 
     
-	// "boilerplate": {
-    //     "prefix": "boilerplate code",
-    //     "body": [
-    //         "#include <bits/stdc++.h>",
-    //         "using namespace std;",
-    //         "int main()",
-    //         "{",
-    //         "    return 0;",
-    //         "}"
-    //     ],
-    //     "description": "Log output to console"
-    // }
+	"boilerplate": {
+        "prefix": "boilerplate code",
+        "body": [
+            "#include <iostream>",
+            "#include <vector>",
+            "#include <string>",
+            "#include <algorithm>",
+            "#include <funtional>",
+            "using namespace std;",
+            "int main()",
+            "{",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Log output to console"
+    }
 }
