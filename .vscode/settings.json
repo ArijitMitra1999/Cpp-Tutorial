@@ -1,0 +1,12 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "*.js": "javascript",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "complex": "cpp",
+        "chrono": "cpp",
+        "cmath": "cpp",
+        "random": "cpp"
+    }
+}
