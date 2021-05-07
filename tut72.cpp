@@ -35,12 +35,20 @@ int main()
 
     list<int> l2(3); // emply list of size 7;
     list<int>::iterator iter = l2.begin();
-    *iter = 45;
-    *iter++;
-    *iter = 49;
-    *iter++;
-    *iter = 53;
-    *iter++;
+
+    for (int i = 0; i < 3; i++)
+    {
+        int s;
+        cin >> s;
+        *iter = s;
+        *iter++;
+    }
+    // *iter = 45;
+    // *iter++;
+    // *iter = 49;
+    // *iter++;
+    // *iter = 53;
+    // *iter++;
     display(l2);
 
     //Merge two list
